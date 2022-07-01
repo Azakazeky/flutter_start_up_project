@@ -8,7 +8,7 @@ class ColorManager {
   static Color darkPrimary = const Color(0xffED9728);
   static Color lightPrimary = const Color(0xffED9728); // ff=>CC opactiy 80%
 
-  static Color white = const Color(0xffED9728);
+  static Color white = const Color(0xffffffff);
 
   static Color appbarColor = const Color(0xffED9728);
   static Color appbarColorShadow = const Color(0xffED9728);

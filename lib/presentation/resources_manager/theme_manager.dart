@@ -58,11 +58,11 @@ ThemeData getApplicationTheme() {
 
     textTheme: TextTheme(
       displayLarge: getLightStyle(FontSize.s20, ColorManager.displayLargeText),
-      headline1: getLightStyle(FontSize.s20, ColorManager.headline1),
-      subtitle1: getLightStyle(FontSize.s10, ColorManager.subtitle1),
-      subtitle2: getLightStyle(FontSize.s14, ColorManager.subtitle2),
-      caption: getLightStyle(FontSize.s20, ColorManager.caption),
-      bodyText1: getLightStyle(FontSize.s12, ColorManager.bodyText1),
+      headlineLarge: getLightStyle(FontSize.s20, ColorManager.headline1),
+      titleMedium: getLightStyle(FontSize.s16, ColorManager.subtitle1),
+      titleLarge: getLightStyle(FontSize.s14, ColorManager.subtitle2),
+      bodyLarge: getLightStyle(FontSize.s20, ColorManager.caption),
+      bodySmall: getLightStyle(FontSize.s12, ColorManager.bodyText1),
       bodyMedium: getLightStyle(FontSize.s16, ColorManager.bodyMedium),
     ),
 
